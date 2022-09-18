@@ -21,25 +21,6 @@ header a:hover {
   text-decoration: underline;
 }
 
-#products {
-  margin-right: 8px;
-  margin-left: 8px;
-}
-
-#bell {
-  margin-right: 10px;
-  margin-left: 8px;
-}
-
-#share {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-#lara {
-  border-radius: 50%;
-}
-
 div {
   display: block;
   margin: auto;
@@ -51,6 +32,10 @@ div img {
   width: 270px;
   height: 95px;
   margin: 5px;
+}
+
+.avatar {
+  border-radius: 50%;
 }
 
 .search {
@@ -130,21 +115,4 @@ footer a:hover {
   right: 18px;
   padding-right: 15px;
   padding-left: 15px;
-}
-
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-input[type="text"]::-ms-clear {
-  display: none;
-  width: 0;
-  height: 0;
-}
-input[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
 }
